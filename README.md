@@ -23,3 +23,5 @@ https://qiita.com/mkin/items/4259a1a9a850917a12b5
 
 ## 📝Study
 - [svelte api get](https://svelte.dev/repl/70e61d6cc91345cdaca2db9b7077a941?version=3.32.3)
+- [svelte api post](https://svelte.dev/repl/c62df203051345bfab6aaa4350faf8f4?version=3.20.1)
+- [svelte input](https://svelte.dev/tutorial/checkbox-inputs)
