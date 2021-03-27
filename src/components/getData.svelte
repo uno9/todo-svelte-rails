@@ -3,9 +3,10 @@
 
   const getPosts = (async () => {
     // todo: localhostを直書きしない(/api/v1/postsのみ記述するような形にする)
-    const response = await fetch('http://localhost:56022/api/v1/posts')
+    const response = await fetch(`${process.env.LOCAL_URL}/api/v1/posts`)
     return await response.json();
   })()
+
 </script>
 
 <main>

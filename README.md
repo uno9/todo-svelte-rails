@@ -1,4 +1,4 @@
- # 💻 Todo2-svelte
+ # 💻 Todo-svelte-rails
 svelte tutorial todo app ver2.
 
 ## ✅ Requirements

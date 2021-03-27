@@ -3,9 +3,9 @@
 	let description = ''
   let limit = ''
 	let result = null
-	
-	async function doPosts () {
-		const res = await fetch('http://localhost:54667/api/v1/posts', {
+
+	async function onClick () {
+		const res = await fetch(`${process.env.LOCAL_URL}/api/v1/posts`, {
 			method: 'POST',
 			body: JSON.stringify({
         "title":title,
@@ -25,7 +25,7 @@
 <input placeholder="Title" bind:value={title} />
 <input placeholder="Description" bind:value={description} />
 <input type =date bind:value={limit} />
-<button type="button" on:click={doPosts}>
+<button type="button" on:click={onClick}>
 	Post it.
 </button>
 <p>
