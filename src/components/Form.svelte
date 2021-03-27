@@ -1,8 +1,8 @@
 <script>
 	let title = ''
 	let description = ''
-  let limit = ''
-	let result = null
+  let limit = 0
+	let result = ''
 
 	async function onClick () {
 		const res = await fetch(`${process.env.LOCAL_URL}/api/v1/posts`, {
@@ -10,14 +10,14 @@
 			body: JSON.stringify({
         "title":title,
         "description":description,
-        "limit":limit
+        "limit":new Date(limit)
 			})
 		})
+
+    console.log(new Date(limit));
 		
 		const json = await res.json()
 		result = JSON.stringify(json)
-
-    console.log(result);
 	}
 </script>
 
@@ -29,7 +29,7 @@
 	Post it.
 </button>
 <p>
-	Result:
+	Post Request Result:
 </p>
 <pre>
 {result}
