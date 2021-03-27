@@ -2,7 +2,8 @@
   import Card from "./Card.svelte";
 
   const getPosts = (async () => {
-    const response = await fetch('http://localhost:54667/api/v1/posts')
+    // todo: localhostを直書きしない(/api/v1/postsのみ記述するような形にする)
+    const response = await fetch('http://localhost:56022/api/v1/posts')
     return await response.json();
   })()
 </script>
