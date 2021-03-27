@@ -3,11 +3,12 @@ svelte tutorial todo app ver2.
 
 ## ✅ Requirements
 - svelte
+- rails api
 
 ## 🚀 Usage
 ```bash
 $ git clone https://github.com/uno9/todo2-svelte.git
-$ cd todo2-svelte
+$ cd todo-svelte-rails
 ```
 use
 ```bash
@@ -25,3 +26,6 @@ https://qiita.com/mkin/items/4259a1a9a850917a12b5
 - [svelte api get](https://svelte.dev/repl/70e61d6cc91345cdaca2db9b7077a941?version=3.32.3)
 - [svelte api post](https://svelte.dev/repl/c62df203051345bfab6aaa4350faf8f4?version=3.20.1)
 - [svelte input](https://svelte.dev/tutorial/checkbox-inputs)
+- svelte add dotenv
+  - https://www.donielsmith.com/blog/2020-05-11-how-to-use-dotenv-with-svelte-3/
+  - https://zenn.dev/azukiazusa/articles/338d1eb4854a4b
